@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+import logo from './ScriptHammerCom.png';
+import hammer from './Wooden-hammer-01.png';
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={hammer} className="App-hammer" alt="wooden mallet" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

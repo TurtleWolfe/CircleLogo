@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# [GIMP Tutorial: Wrap Text Around A Circle](https://youtu.be/_Wq_A-jkWQE "In today's tutorial I'll be demonstrating how you can use paths to wrap text around a circle using GIMP. I'll also be showing how to reverse the direction of the path (using the Flip tool) so that you can wrap text along both the inside and outside of the circle. ")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https//ScriptHammer.com  
+![https//ScriptHammer.com][logo]](https//ScriptHammer.com 'https//ScriptHammer.com')
 
-## Available Scripts
+[logo]: public/ScriptHammerCom.png 'https//ScriptHammer.com'
 
-In the project directory, you can run:
+1. new file 1200 x 1200 fill with BackGround Color ok
+1. control, scroll out
+1. image, new guides by 50 precent vertical
+1. image, new guides by 50 precent horizontal
+1. view, snap to guides
+1. elipse selection tool
+1. center, control shift half page
+1. select to path
+1. select none
+1. paths, eyeball
+1. layer, text
+1. font
+1. move text away from center
+1. text layer, right click, text along path
+1. turn off visibilty
+1. new layer, fill with transparency, ok
+1. path to selection
+1. edit, fill with foreground color
+1. selct none
+1. delete path
+1. rotate tool, grab text, enter
+1. layer to image size
 
-### `npm start`
+<!-- 1. new file 200 x 200 fill with BackGround Color
+1. new file 200 x 200 fill with BackGround Color
+1. new file 200 x 200 fill with BackGround Color
+1. new file 200 x 200 fill with BackGround Color
+1. new file 200 x 200 fill with BackGround Color
+1. new file 200 x 200 fill with BackGround Color
+1. new file 200 x 200 fill with BackGround Color -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```javascript
+npx create-react-app . --use-npm
+npm i gh-pages --save-dev
+// CNAME 13:00
+// React 15:00
+// npm run build
+npm run deploy
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```json
+{
+  "name": "script_hammer",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "homepage": "https://CRUDgames.com"
+}
+```
 
-### `npm test`
+[GitHub Pages Deploy & Domain: TraversyMedia  
+![https//ScriptHammer.com][traversypages]](https://youtu.be/SKXkC4SqtRk')
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[traversypages]: public/traversyPages.png 'GitHub Pages Deploy & Domain'
 
-### `npm run build`
+[https//ScriptHammer.com  
+![https//ScriptHammer.com][logo]](https//ScriptHammer.com 'https//ScriptHammer.com')
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[logo]: public/ScriptHammerCom.png 'https//ScriptHammer.com'

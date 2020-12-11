@@ -14,6 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +35,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "description": "[https//ScriptHammer.com   ![https//ScriptHammer.com][logo]](https//ScriptHammer.com 'https//ScriptHammer.com')",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TurtleWolfe/CircleLogo.git"
+  },
+  "keywords": [
+    "React",
+    "Node",
+    "Spinning",
+    "Logo"
+  ],
+  "author": "TurtleWolfe @ https://ScriptHammer.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TurtleWolfe/CircleLogo/issues"
+  },
+  "homepage": "https://CRUDgames.com"
 }
